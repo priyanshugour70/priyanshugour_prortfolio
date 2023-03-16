@@ -25,13 +25,13 @@ function Intro() {
                 Hire me
             </button>
             <div className="i-icons">
-                <a href="#">
+                <a href="https://github.com/priyanshugour70">
                 <img src={Github} alt="github" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/priyanshu-gour-32825024a/">
                 <img src={LinkedIn} alt="linkedin" />
                 </a>
-                <a href="">
+                <a href="https://www.hackerrank.com/priyanshugour70">
                 <img className='i-hackerrank' src={Hackerrank} alt="hackerrank" />
                 </a>
             </div>
@@ -48,6 +48,7 @@ function Intro() {
                 <FloatingDiv image={thumbup} txt1='Java' txt2='programmer' />
             </div>
             <div className="blur" style={{background:"rgb(238 210 255"}}></div>
+            <div className="blur" style={{background: '#C1F5FF', top:'17rem', width: '21rem', height: '11rem', left:'-9rem'}}></div>
         </div>
     </div>
   )
