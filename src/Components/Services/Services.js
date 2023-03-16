@@ -21,7 +21,11 @@ function Services() {
             </div>
             {/* Right side */}
             <div className="cards">
-              I am the Right Side
+              <Card
+                emoji = {HeartEmoji}
+                heading = {'Front-end'}
+                detail = {"HTML5, CSS3, Vanilla JavaScript, ReactJs, Bootstrap, Tailwind CSS  "}
+              />
             </div>
         </div>
     );
