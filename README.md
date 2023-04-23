@@ -1,70 +1,76 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+The following technologies were used to create this portfolio:
 
-### `yarn start`
+- Next.js
+- React
+- Typescript
+- SCSS
+- Framer Motion
+- Kinsta
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+## 🛠 Installation & Set Up
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+1. Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```sh
+   yarn
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Start the development server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   yarn dev
+   ```
 
-### `yarn eject`
+## 🚀 Building and Running for Production
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Generate a full static production build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   yarn build
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Preview the site as it will appear once deployed
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```sh
+   yarn start
+   ```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Color Reference
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Navy           | `#0a192f` |
+| Light Navy     | `#112240` |
+| Lightest Navy  | `#233554` |
+| Slate          | `#8892b0` |
+| Light Slate    | `#a8b2d1` |
+| Lightest Slate | `#ccd6f6` |
+| White          | `#e6f1ff` |
+| Purple         | `#9d00ff` |
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🚀 Deployment on Kinsta:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Kinsta is a leading cloud hosting provider that specializes in offering high-performance hosting solutions for applications and databases. With a global network of data centers, Kinsta provides reliable and scalable hosting services to businesses of all sizes, from startups to enterprises.
 
-### Making a Progressive Web App
+In addition to their hosting services, Kinsta provides top-notch customer support with a team of WordPress and hosting experts available 24/7 to assist customers with any questions or issues they may encounter.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+With its high-performance hosting solutions, robust security measures, and exceptional customer support, Kinsta is a trusted choice for businesses looking for reliable and scalable hosting solutions for their applications and databases.
 
-### Advanced Configuration
+Use the links below to get $20 worth of credits to get started.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Kinsta Application Hosting](https://kinsta.com/application-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=application-hosting&utm_content=blog)
 
-### Deployment
+[Kinsta Database Hosting](https://kinsta.com/database-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=database-hosting&utm_content=blog)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### This project was a part of my Youtube Channel. Check out the video to learn how to build this awesome portfolio from scratch and host the NEXT.JS Portfolio on Kinsta.
