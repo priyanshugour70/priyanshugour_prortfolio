@@ -94,16 +94,16 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
+      title: 'Java Developer',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ Proficiency in Java, with a good understanding of its ecosystems'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
+          '⚡ Familiar with different design and architectural patterns. instances along with integration of databases'
+          ),
+        emoji('⚡ Experience of working on Java backend'),
       ],
       softwareSkills: [
         // ? Check README To get icon details
@@ -112,84 +112,84 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:aws',
         },
         {
-          skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
+          skillName: 'Spring-Framework',
+          fontAwesomeClassName: 'logos:spring',
         },
         {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
+          skillName: 'hibernate',
+          fontAwesomeClassName: 'logos:hibernate',
         },
         {
-          skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
+          skillName: 'MySql',
+          fontAwesomeClassName: 'logos:mysql',
         },
         {
           skillName: 'Github',
           fontAwesomeClassName: 'akar-icons:github-fill',
         },
         {
+          skillName: 'Apache',
+          fontAwesomeClassName: 'logos:apache',
+        },
+        {
+          skillName: 'Spring-boot',
+          fontAwesomeClassName: 'bxl:spring-boot',
+        },
+        {
+          skillName: 'Git',
+          fontAwesomeClassName: 'logos:git',
+        },
+        {
           skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
+          fontAwesomeClassName: 'logos:docker',
         },
         {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
+          skillName: 'Linux',
+          fontAwesomeClassName: 'logos:ubuntu',
         },
       ],
     },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
-      ],
-    },
+    // {
+    //   title: 'Blockchain',
+    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+    //     ),
+    //     emoji(
+    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+    //     ),
+    //     emoji(
+    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+    //     ),
+    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+    //     emoji(
+    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: 'Ethereum',
+    //       fontAwesomeClassName: 'logos:ethereum',
+    //     },
+    //     {
+    //       skillName: 'Solidity',
+    //       fontAwesomeClassName: 'logos:solidity',
+    //     },
+    //     {
+    //       skillName: 'Web3js',
+    //       fontAwesomeClassName: 'logos:web3js',
+    //     },
+    //     {
+    //       skillName: 'Metamask',
+    //       fontAwesomeClassName: 'logos:metamask-icon',
+    //     },
+    //     {
+    //       skillName: 'Ganache',
+    //       fontAwesomeClassName: 'logos:ganache-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -210,10 +210,21 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    schoolName: 'Jawahar Navodaya Vidyalaya, Harda',
+    subHeader: 'Schooling',
+    duration: 'July 2015 - June 2022',
+    desc: 'Vice-captain of the school.',
+    grade: 'Grade : A',
+    descBullets: [
+      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    ],
+  },
+  {
+    schoolName: 'Sage University, Bhopal',
+    subHeader: 'Bachelor of Computer Application',
+    duration: 'September 2022 - Present',
+    desc: 'specialization in cloud computing.',
     grade: 'Grade A',
     descBullets: [
       'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
