@@ -1,76 +1,120 @@
+<h1 align="center">Welcome to developer-portfolio 👋</h1>
+<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
 
+## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+
+<p align="center">
+  <kbd>
+    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+  </kbd>
+</p>
+
+## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+
+Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+
+## Sections
+
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education\
+✔️ Work Experience\
+✔️ Feedbacks\
+✔️ Projects\
+✔️ Github Profile
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+<br>
+**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
+
+## How To Use
+
+1. Fork this repoistory and clone it to your local machine.
+
+```bash
+$ git clone https://github.com/<your-username>/developer-portfolio.git
+```
+
+2. Go into the repository
+
+```bash
+$ cd developer-portfolio
+```
+
+3. Install dependencies
+
+```bash
+$ yarn
+```
+
+4. Edit `portfolio.js`
+
+5. Start's development server
+
+```bash
+$ yarn dev
+```
+
+## Linking Portfolio to Github
+
+```javascript
+  //  portfolio.js
+  githubUserName: 'YOUR GITHUB USERNAME HERE',
+```
+
+#### Using Emojis
+
+For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
 ## Technologies Used
 
-The following technologies were used to create this portfolio:
+- [Next.js](https://nextjs.org/)
+- [axios](https://www.npmjs.com/package/axios)
+- [reactstrap](https://reactstrap.github.io/)
+- [react-reveal](https://www.react-reveal.com/)
+- [react-lottie](https://www.npmjs.com/package/react-lottie)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [react-headroom](https://github.com/KyleAMathews/react-headroom)
+- [color-thief](https://github.com/lokesh/color-thief)
 
-- Next.js
-- React
-- Typescript
-- SCSS
-- Framer Motion
-- Kinsta
+## Illustrations
 
+- [Lottie File Source](https://lottiefiles.com)
 
+## Icons
 
-## 🛠 Installation & Set Up
+Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
 
+## For the Future
 
-1. Install dependencies
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
 
-   ```sh
-   yarn
-   ```
+- Enable Dark Mode
 
-2. Start the development server
+- Add More Sections
 
-   ```sh
-   yarn dev
-   ```
+## Author
 
-## 🚀 Building and Running for Production
+👤 **Hanzla Tauqeer**
 
-1. Generate a full static production build
+- Website: https://hanzla.netlify.app
+- Github: [@1hanzla100](https://github.com/1hanzla100)
+- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
 
-   ```sh
-   yarn build
-   ```
+## Show your support
 
-1. Preview the site as it will appear once deployed
-
-   ```sh
-   yarn start
-   ```
-
-
-## 🎨 Color Reference
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | `#0a192f` |
-| Light Navy     | `#112240` |
-| Lightest Navy  | `#233554` |
-| Slate          | `#8892b0` |
-| Light Slate    | `#a8b2d1` |
-| Lightest Slate | `#ccd6f6` |
-| White          | `#e6f1ff` |
-| Purple         | `#9d00ff` |
-
-
-
-## 🚀 Deployment on Kinsta:
-
-Kinsta is a leading cloud hosting provider that specializes in offering high-performance hosting solutions for applications and databases. With a global network of data centers, Kinsta provides reliable and scalable hosting services to businesses of all sizes, from startups to enterprises.
-
-In addition to their hosting services, Kinsta provides top-notch customer support with a team of WordPress and hosting experts available 24/7 to assist customers with any questions or issues they may encounter.
-
-With its high-performance hosting solutions, robust security measures, and exceptional customer support, Kinsta is a trusted choice for businesses looking for reliable and scalable hosting solutions for their applications and databases.
-
-Use the links below to get $20 worth of credits to get started.
-
-[Kinsta Application Hosting](https://kinsta.com/application-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=application-hosting&utm_content=blog)
-
-[Kinsta Database Hosting](https://kinsta.com/database-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=database-hosting&utm_content=blog)
-
-
-### This project was a part of my Youtube Channel. Check out the video to learn how to build this awesome portfolio from scratch and host the NEXT.JS Portfolio on Kinsta.
+Give a ⭐️ if this project helped you!
