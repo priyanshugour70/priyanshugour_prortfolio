@@ -195,16 +195,16 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Full Stack Development', //Insert stack or technology you have experience in
+    progressPercentage: '70', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
+    Stack: 'Java Development',
     progressPercentage: '70',
   },
   {
-    Stack: 'Programming',
-    progressPercentage: '60',
+    Stack: 'Competitive Programming',
+    progressPercentage: '80',
   },
 ];
 
@@ -299,19 +299,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Priyanshu Gour',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+    'A passionate Full Stack Web Developer and Java Developer.',
+  author: 'Priyanshu Gour',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Priyanshu',
+    'Priyanshu Gour',
+    '@priyanshugour70',
+    'priyanshugour',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'priyanshu Portfolio ',
+    'priyanshu gour Portfolio',
   ],
 };
