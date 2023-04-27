@@ -26,54 +26,6 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Projects\
 ✔️ Github Profile
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
-<br>
-**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
-
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
-
-## How To Use
-
-1. Fork this repoistory and clone it to your local machine.
-
-```bash
-$ git clone https://github.com/<your-username>/priyanshugour_prortfolio.git
-```
-
-2. Go into the repository
-
-```bash
-$ cd priyanshugour_prortfolio
-```
-
-3. Install dependencies
-
-```bash
-$ yarn
-```
-
-4. Edit `portfolio.js`
-
-5. Start's development server
-
-```bash
-$ yarn dev
-```
-
-## Linking Portfolio to Github
-
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
 
 #### Using Emojis
 
@@ -90,9 +42,6 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
-## Illustrations
-
-- [Lottie File Source](https://lottiefiles.com)
 
 ## Icons
 
@@ -108,11 +57,11 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 ## Author
 
-👤 **Hanzla Tauqeer**
+👤 **Priyanshu Gour**
 
 - Website: [@priyanshugour70](https://priyanshugour70.vercel.app/)
-- Github: [@1hanzla100](https://github.com/priyanshugour70)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/priyanshugour70)
+- Github: [@priyanshugour70](https://github.com/priyanshugour70)
+- LinkedIn: [@priyanshugour70](https://linkedin.com/in/priyanshugour70)
 
 ## Show your support
 
