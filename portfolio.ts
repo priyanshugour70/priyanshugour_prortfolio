@@ -30,9 +30,9 @@ export const socialLinks: SocialLinksType = {
   url: 'https://priyanshugour70.vercel.app/',
   linkedin: 'https://www.linkedin.com/in/priyanshugour70/',
   github: 'https://github.com/priyanshugour70',
-  instagram: 'https://www.instagram.com/priyanshugour70',
-  facebook: 'https://www.facebook.com/gourpriyanshu/',
-  twitter: 'https://twitter.com/Priyanshugour70',
+  hackerrank: 'https://www.hackerrank.com/priyanshugour70',
+  leetcode: 'https://www.leetcode.com/priyanshugour70/',
+  geeksforgeeks: 'https://auth.geeksforgeeks.org/user/priyanshugour70',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -149,6 +149,62 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
+    // {
+    //   title: 'Cloud Infra-Architecture',
+    //   lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji('⚡ Experience of working on multiple cloud platforms'),
+    //     emoji(
+    //       '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+    //     ),
+    //     emoji(
+    //       '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     // ? Check README To get icon details
+    //     {
+    //       skillName: 'AWS',
+    //       fontAwesomeClassName: 'logos:aws',
+    //     },
+    //     {
+    //       skillName: 'Azure',
+    //       fontAwesomeClassName: 'logos:microsoft-azure',
+    //     },
+    //     {
+    //       skillName: 'Heroku',
+    //       fontAwesomeClassName: 'logos:heroku-icon',
+    //     },
+    //     {
+    //       skillName: 'PostgreSQL',
+    //       fontAwesomeClassName: 'logos:postgresql',
+    //     },
+    //     {
+    //       skillName: 'Github',
+    //       fontAwesomeClassName: 'akar-icons:github-fill',
+    //     },
+    //     {
+    //       skillName: 'Docker',
+    //       fontAwesomeClassName: 'logos:docker-icon',
+    //     },
+    //     {
+    //       skillName: 'Github Actions',
+    //       fontAwesomeClassName: 'logos:github-actions',
+    //     },
+    //     {
+    //       skillName: 'Cloudinary',
+    //       fontAwesomeClassName: 'logos:cloudinary',
+    //     },
+    //     {
+    //       skillName: 'Nginx',
+    //       fontAwesomeClassName: 'logos:nginx',
+    //     },
+    //     {
+    //       skillName: 'Sentry',
+    //       fontAwesomeClassName: 'logos:sentry-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
