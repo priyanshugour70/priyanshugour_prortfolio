@@ -30,9 +30,9 @@ export const socialLinks: SocialLinksType = {
   url: 'https://priyanshugour70.vercel.app/',
   linkedin: 'https://www.linkedin.com/in/priyanshugour70/',
   github: 'https://github.com/priyanshugour70',
-  instagram: 'https://www.instagram.com/priyanshugour70',
-  facebook: 'https://www.facebook.com/gourpriyanshu/',
-  twitter: 'https://twitter.com/Priyanshugour70',
+  hackerrank: 'https://www.hackerrank.com/priyanshugour70',
+  leetcode: 'https://www.leetcode.com/priyanshugour70/',
+  geeksforgeeks: 'https://auth.geeksforgeeks.org/user/priyanshugour70',
 };
 
 export const skillsSection: SkillsSectionType = {
