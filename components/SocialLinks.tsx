@@ -1,9 +1,6 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { socialLinks } from '../portfolio';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHackerrank } from '@fortawesome/free-brands-svg-icons';
-import Image from 'next/image';
 
 const SocialLinks = () => {
   return (
@@ -50,48 +47,45 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
-      {socialLinks.hackerrank && (
+      {socialLinks.instagram && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
-          color="hackerrank"
-          href={socialLinks.hackerrank}
+          color="instagram"
+          href={socialLinks.instagram}
           target="_blank"
           rel="noopener"
-          aria-label="Hackerrank"
+          aria-label="Instagram"
         >
           <span className="btn-inner--icon">
-            <FontAwesomeIcon
-              icon={faHackerrank}
-              style={{ fontSize: '36px', color: '#7cf961' }}
-            />
+            <i className="fa fa-instagram" />
           </span>
         </Button>
       )}
-      {socialLinks.leetcode && (
+      {socialLinks.facebook && (
         <Button
-          className="btn-icon-only rounded-circle ml-1 bg-gray"
-          color="leetcode"
-          href={socialLinks.leetcode}
+          className="btn-icon-only rounded-circle ml-1"
+          color="facebook"
+          href={socialLinks.facebook}
           target="_blank"
           rel="noopener"
-          aria-label="leetcode"
+          aria-label="Facebook"
         >
           <span className="btn-inner--icon">
-            <Image src="/leetcode.svg" alt="LeetCode" width={30} height={30} />
+            <i className="fa fa-facebook-square" />
           </span>
         </Button>
       )}
-      {socialLinks.geeksforgeeks && (
+      {socialLinks.twitter && (
         <Button
-          className="btn-icon-only rounded-circle bg-white"
-          color="geeksforgeeks"
-          href={socialLinks.geeksforgeeks}
+          className="btn-icon-only rounded-circle"
+          color="twitter"
+          href={socialLinks.twitter}
           target="_blank"
           rel="noopener"
-          aria-label="geeksforgeeks"
+          aria-label="Twitter"
         >
-          <span className="btn-inner--icon ">
-          <Image src="/geeksforgeeks.svg" alt="geeksforgeeks" width={32} height={32} />
+          <span className="btn-inner--icon">
+            <i className="fa fa-twitter" />
           </span>
         </Button>
       )}
